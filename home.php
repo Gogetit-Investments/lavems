@@ -77,7 +77,22 @@ $department=$row["department"];
                         <a href="receipts.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-pen fa-sm text-white-50"></i> Issue Receipt</a>
                         </span>     
+
+                        <span>
+                        <!-- <a class="collapse-item" href="invoice_mgt.php"> View All Invoice </a> -->
+                        <a href="invoice_mgt.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-print fa-sm text-white-50"></i> View All Invoice</a>
+                        </span>  
+
+                        <span>
+                        <!-- <a class="collapse-item" href="invoice_mgt.php"> View All Invoice </a> -->
+                        <a href="client_mgt.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-users fa-sm text-white-50"></i> View All Clients</a>
+                        </span> 
+
                     </div>
+
+                    
 
                    <?php include_once "stats.php"; ?>
 
